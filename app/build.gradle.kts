@@ -7,6 +7,10 @@ android {
     namespace = "com.dkgtech.studentmanagement"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.dkgtech.studentmanagement"
         minSdk = 24
